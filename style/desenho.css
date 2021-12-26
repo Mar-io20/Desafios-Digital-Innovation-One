@@ -1,0 +1,18 @@
+.w,.r,.b,.o,.y{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+}
+.r {
+    background: #FB0405;
+}
+.b {
+    background: #7d5307;
+}
+.o {
+    background: #ff9f10;
+}
+.y {
+    background: #f6a412;
+}
