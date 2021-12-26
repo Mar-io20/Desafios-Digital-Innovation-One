@@ -47,8 +47,11 @@
 }
 
 /* seção do desenho */
-
+.desenho-do-mario{
+  width: 300px;
+}
 .titulo-desenho {
   align-items: center;
   justify-content: center;
+  font-size: 40px;
 }
