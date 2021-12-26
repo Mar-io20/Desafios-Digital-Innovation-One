@@ -1,0 +1,25 @@
+/* Header */
+.cabecalho {
+    background: cornflowerblue;
+    margin: auto -8px auto -8px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+    margin-top: -8px;
+    padding: 10px;
+}
+.logoSite{
+    width: 50px;
+}
+.link-nav{
+    color: #fff;
+    font-size: 30px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* main */
+
