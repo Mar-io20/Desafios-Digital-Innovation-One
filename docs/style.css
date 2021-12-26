@@ -1,25 +1,54 @@
 /* Header */
 .cabecalho {
-    background: cornflowerblue;
-    margin: auto -8px auto -8px;
+  background: #6495ed;
+  margin: auto -8px auto -8px;
 }
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 5%;
-    margin-top: -8px;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5%;
+  margin-top: -8px;
+  padding: 10px;
 }
-.logoSite{
-    width: 50px;
+.logoSite {
+  width: 50px;
 }
-.link-nav{
-    color: #fff;
-    font-size: 30px;
-    margin: 15px;
-    text-decoration: none;
+.link-nav {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px;
+  text-decoration: none;
 }
 
 /* main */
+.container-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5%;
+}
 
+.container-conteudo-textos {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.titulo-projeto {
+  font-size: 50px;
+  color: #417dec;
+
+  text-align: center;
+}
+
+.texto-conteudo {
+  font-size: 25px;
+}
+
+/* seção do desenho */
+
+.titulo-desenho {
+  align-items: center;
+  justify-content: center;
+}
