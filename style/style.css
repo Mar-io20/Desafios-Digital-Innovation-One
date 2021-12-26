@@ -22,17 +22,25 @@
 }
 
 /* main */
+main {
+  background: rgb(202, 202, 202);
+  margin: 0 -8px;
+}
 .container-conteudo {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 5%;
+
+  background: #FFFFFF;
+box-shadow: 0px 10px 15px 14px rgba(255, 255, 255, 0.4);
 }
 
 .container-conteudo-textos {
   display: flex;
   flex-direction: column;
   width: 500px;
+  margin-left: 13%;
 }
 
 .titulo-projeto {
@@ -47,11 +55,27 @@
 }
 
 /* seção do desenho */
-.desenho-do-mario{
-  width: 300px;
+.desenho-do-mario {
+  width: 500px;
 }
 .titulo-desenho {
   align-items: center;
   justify-content: center;
   font-size: 40px;
+}
+
+@media (max-width: 1000px) {
+  .container-conteudo, .conteudo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container-conteudo-textos {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 0;
+    
+  }
+
 }
